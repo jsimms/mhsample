@@ -28,8 +28,8 @@ describe "User Pages" do
 
         it { should have_title('Sign up') }
         it { should have_content('error') } 
-    end
-
+      end
+    end  
     describe "with valid information" do
       before do
         fill_in "Name",         with: "Example User"
@@ -51,5 +51,4 @@ describe "User Pages" do
       end
     end
   end
-
 end
